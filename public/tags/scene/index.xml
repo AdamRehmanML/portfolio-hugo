@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scene on Data Science and Machine Learning Portfolio</title>
+    <link>http://localhost:1313/tags/scene/</link>
+    <description>Recent content in Scene on Data Science and Machine Learning Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 12 Apr 2017 11:14:48 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scene/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter IV: Master Jacques Coppenole</title>
+      <link>http://localhost:1313/post/chapter-4/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <guid>http://localhost:1313/post/chapter-4/</guid>
+      <description>&lt;p&gt;While the pensioner of Ghent and his eminence were exchanging very low&#xA;bows and a few words in voices still lower, a man of lofty stature, with a&#xA;large face and broad shoulders, presented himself, in order to enter&#xA;abreast with Guillaume Rym; one would have pronounced him a bull-dog by&#xA;the side of a fox. His felt doublet and leather jerkin made a spot on the&#xA;velvet and silk which surrounded him. Presuming that he was some groom who&#xA;had stolen in, the usher stopped him.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Matrix - GPT</title>
+      <link>http://localhost:1313/post/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <guid>http://localhost:1313/post/chapter-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;-education&#34;&gt;🎓 Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;MEng in Electronic and Electrical Engineering&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Imperial College London&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-work-experience&#34;&gt;💼 Work Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;research-internship-at-arm&#34;&gt;Research Internship at &lt;strong&gt;ARM&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Focused on &lt;strong&gt;Hardware Engineering&lt;/strong&gt;, contributing to research and development of next-generation chip designs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;engineering-internship-at-peter-brett-associates-now-stantec&#34;&gt;Engineering Internship at &lt;strong&gt;Peter Brett Associates (now Stantec)&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gained experience in &lt;strong&gt;Structural Engineering&lt;/strong&gt;, working on large-scale infrastructure projects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>
