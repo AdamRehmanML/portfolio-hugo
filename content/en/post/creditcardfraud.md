@@ -1,14 +1,11 @@
 ---
 weight: 4
-featured_image: ""
+featured_image: "images/creditcardfraud.jpg"
 tags: ["Data Science", "Machine Learning", "Gradient Boosting"]
 title: "Detecting credit card fraud"
 ---
 
-
-## Fraud Detection
-
-This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle's [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) to build and evaluate a fraud detection model. The full source code and details are available in the [GitHub repository](https://github.com/username/fraud-detection).
+This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle's [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) to build and evaluate a fraud detection model. The full source code and details are available in the [GitHub repository](https://github.com/adamrehmanml/fraud-detection).
 
 ### Overview
 
@@ -50,4 +47,22 @@ model.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)
 model.save_model('xgboost_model.json')
 ```
 
+After training, the model is saved as xgboost_model.json for future use. This setup ensures robust performance on the imbalanced dataset.
+Evaluation Metrics
 
+    Precision and Recall are calculated, leading to the F1 Score (harmonic mean).
+    Fβ Score (e.g., β=10) is computed to prioritize Recall when missing fraud is costly.
+    Thresholds are selected to maximize either F1 or Fβ, followed by confusion matrix comparisons.
+
+Threshold Tuning
+
+    Default threshold for binary classifiers is 0.5.
+    Due to imbalance, the threshold is tuned using the Precision-Recall curve to maximize a chosen F-measure.
+
+Confusion Matrices
+
+    Side-by-side confusion matrices are plotted for F1-optimized vs. Fβ-optimized thresholds.
+    This visualizes trade-offs between false positives and false negatives.
+
+Here’s the evaluation and visualization code:
+![sigma](/images/confusion_matrix.png)
