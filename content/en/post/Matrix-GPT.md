@@ -1,6 +1,5 @@
 ---
-description: "Creating a tokenizer and GPT model in pytorch."
-#featured_image: "/images/sigma.jpg"
+featured_image: "/images/matrix.jpg"
 title: "The Matrix - GPT"
 weight: 10
 ---

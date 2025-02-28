@@ -6,14 +6,13 @@
     <description>Recent content in Projects on Data Science and Machine Learning Portfolio</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 10 Apr 2017 11:00:59 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Detecting credit card fraud</title>
       <link>http://localhost:1313/post/creditcardfraud/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/creditcardfraud/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;fraud-detection&#34;&gt;Fraud Detection&lt;/h2&gt;&#xA;&lt;p&gt;This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle&amp;rsquo;s &lt;a href=&#34;https://www.kaggle.com/mlg-ulb/creditcardfraud&#34;&gt;Credit Card Fraud Dataset&lt;/a&gt; to build and evaluate a fraud detection model. The full source code and details are available in the &lt;a href=&#34;https://github.com/username/fraud-detection&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The dataset contains transactions labeled as either &lt;strong&gt;fraudulent&lt;/strong&gt; or &lt;strong&gt;legitimate&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It exhibits a strong class imbalance: legitimate transactions vastly outnumber fraudulent ones.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;modeling&#34;&gt;Modeling&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The primary model is an &lt;strong&gt;XGBoost&lt;/strong&gt; (Gradient Boosted Decision Trees) classifier.&lt;/li&gt;&#xA;&lt;li&gt;Key configuration parameters include:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;max_depth&lt;/code&gt;: Controls tree depth to prevent overfitting.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;learning_rate&lt;/code&gt;: Set low for better convergence.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;n_estimators&lt;/code&gt;: High value with early stopping.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;gamma&lt;/code&gt;, &lt;code&gt;alpha&lt;/code&gt;, &lt;code&gt;lambda&lt;/code&gt;: Regularization terms.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;scale_pos_weight&lt;/code&gt;: Adjusted to address class imbalance.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;A validation set is used to monitor performance, with early stopping or threshold tuning applied.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here’s a snippet of the model training code:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Matrix - GPT</title>

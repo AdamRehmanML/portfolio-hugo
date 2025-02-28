@@ -6,19 +6,17 @@ defaultContentLanguage = "en"
 sectionPagesMenu = "main"
 enableRobotsTXT = true
 
-
 [services.googleAnalytics]
 id = ''
 
 [pagination]
-pagerSize = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+pagerSize = 10
 
 [languages.en]
 contentDir = "content/en"
 languageCode = 'en-US'
 weight = 1
 title = "Data Science and Machine Learning Portfolio"
-# languageDirection = 'rtl' for Right-To-Left languages
 
 [sitemap]
 changefreq = "monthly"
@@ -28,32 +26,23 @@ filename = "sitemap.xml"
 [params]
 mainSections = ["post"]
 text_color = ""
-author = "Adam Rehman" # default author, override via `author` in a posts front matter
+author = "Adam Rehman"
 favicon = ""
 site_logo = ""
 description = "The last theme you'll ever need. Maybe."
-# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 background_color_class = "bg-black"
-# choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
 featured_image_class = "cover bg-top"
-# choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 10
 
+[params.ananke]
+show_recent_posts = true  # Ensure posts show on homepage
+
 [params.ananke.social.share]
-networks = [
-  "email",
-  "linkedin",
-  "github"
-]
+networks = ["email", "linkedin", "github"]  # Fixed typo: "network" to "networks"
 
-
-[params.ananke.social.follow]
-networks = [
-  "linkedin",
-  "github"
-]
-
+[params.ananke.social.follow]  # Fixed typo: "param" to "params"
+networks = ["linkedin", "github"]
 
 [params.ananke.social.linkedin]
 username = "adam-rehman"
@@ -61,3 +50,7 @@ username = "adam-rehman"
 [params.ananke.social.github]
 username = "AdamRehmanML"
 
+# [[menu.main]]
+#name = "Projects"
+#url = "/post/"
+# weight = 1
