@@ -1,6 +1,7 @@
 ---
 weight: 4
 featured_image: "images/creditcardfraud.jpg"
+summary: "Credit Card Fraud Prediction using Machine Learning."
 tags: ["Data Science", "Machine Learning", "Gradient Boosting"]
 title: "Detecting credit card fraud"
 ---

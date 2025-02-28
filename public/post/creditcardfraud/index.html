@@ -6,28 +6,7 @@
     
     <title>Detecting credit card fraud | Data Science and Machine Learning Portfolio</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle&rsquo;s Credit Card Fraud Dataset to build and evaluate a fraud detection model. The full source code and details are available in the GitHub repository.
-Overview
-Data
-
-The dataset contains transactions labeled as either fraudulent or legitimate.
-It exhibits a strong class imbalance: legitimate transactions vastly outnumber fraudulent ones.
-
-Modeling
-
-The primary model is an XGBoost (Gradient Boosted Decision Trees) classifier.
-Key configuration parameters include:
-
-max_depth: Controls tree depth to prevent overfitting.
-learning_rate: Set low for better convergence.
-n_estimators: High value with early stopping.
-gamma, alpha, lambda: Regularization terms.
-scale_pos_weight: Adjusted to address class imbalance.
-
-
-A validation set is used to monitor performance, with early stopping or threshold tuning applied.
-
-Here’s a snippet of the model training code:">
+    <meta name="description" content="Credit Card Fraud Prediction using Machine Learning.">
     <meta name="generator" content="Hugo 0.145.0">
     
     
@@ -59,8 +38,7 @@ Here’s a snippet of the model training code:">
     <meta property="og:url" content="http://localhost:1313/post/creditcardfraud/">
   <meta property="og:site_name" content="Data Science and Machine Learning Portfolio">
   <meta property="og:title" content="Detecting credit card fraud">
-  <meta property="og:description" content="This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle’s Credit Card Fraud Dataset to build and evaluate a fraud detection model. The full source code and details are available in the GitHub repository.
-Overview Data The dataset contains transactions labeled as either fraudulent or legitimate. It exhibits a strong class imbalance: legitimate transactions vastly outnumber fraudulent ones. Modeling The primary model is an XGBoost (Gradient Boosted Decision Trees) classifier. Key configuration parameters include: max_depth: Controls tree depth to prevent overfitting. learning_rate: Set low for better convergence. n_estimators: High value with early stopping. gamma, alpha, lambda: Regularization terms. scale_pos_weight: Adjusted to address class imbalance. A validation set is used to monitor performance, with early stopping or threshold tuning applied. Here’s a snippet of the model training code:">
+  <meta property="og:description" content="Credit Card Fraud Prediction using Machine Learning.">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -69,14 +47,12 @@ Overview Data The dataset contains transactions labeled as either fraudulent or 
     <meta property="article:tag" content="Gradient Boosting">
 
   <meta itemprop="name" content="Detecting credit card fraud">
-  <meta itemprop="description" content="This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle’s Credit Card Fraud Dataset to build and evaluate a fraud detection model. The full source code and details are available in the GitHub repository.
-Overview Data The dataset contains transactions labeled as either fraudulent or legitimate. It exhibits a strong class imbalance: legitimate transactions vastly outnumber fraudulent ones. Modeling The primary model is an XGBoost (Gradient Boosted Decision Trees) classifier. Key configuration parameters include: max_depth: Controls tree depth to prevent overfitting. learning_rate: Set low for better convergence. n_estimators: High value with early stopping. gamma, alpha, lambda: Regularization terms. scale_pos_weight: Adjusted to address class imbalance. A validation set is used to monitor performance, with early stopping or threshold tuning applied. Here’s a snippet of the model training code:">
+  <meta itemprop="description" content="Credit Card Fraud Prediction using Machine Learning.">
   <meta itemprop="wordCount" content="299">
   <meta itemprop="keywords" content="Data Science,Machine Learning,Gradient Boosting">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Detecting credit card fraud">
-  <meta name="twitter:description" content="This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle’s Credit Card Fraud Dataset to build and evaluate a fraud detection model. The full source code and details are available in the GitHub repository.
-Overview Data The dataset contains transactions labeled as either fraudulent or legitimate. It exhibits a strong class imbalance: legitimate transactions vastly outnumber fraudulent ones. Modeling The primary model is an XGBoost (Gradient Boosted Decision Trees) classifier. Key configuration parameters include: max_depth: Controls tree depth to prevent overfitting. learning_rate: Set low for better convergence. n_estimators: High value with early stopping. gamma, alpha, lambda: Regularization terms. scale_pos_weight: Adjusted to address class imbalance. A validation set is used to monitor performance, with early stopping or threshold tuning applied. Here’s a snippet of the model training code:">
+  <meta name="twitter:description" content="Credit Card Fraud Prediction using Machine Learning.">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -178,7 +154,7 @@ Overview Data The dataset contains transactions labeled as either fraudulent or 
         <span class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>
                 
-              </span></a><a href="https://www.linkedin.com/shareArticle?&amp;mini=true&amp;source=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fcreditcardfraud%2F&amp;summary=This&#43;project&#43;explores&#43;the&#43;detection&#43;of&#43;financial&#43;fraud&#43;in&#43;credit&#43;card&#43;transactions&#43;using&#43;machine&#43;learning&#43;techniques.&#43;The&#43;code&#43;and&#43;experiments&#43;in&#43;this&#43;repository&#43;leverage&#43;Kaggle%26amp%3Brsquo%3Bs&#43;Credit&#43;Card&#43;Fraud&#43;Dataset&#43;to&#43;build&#43;and&#43;evaluate&#43;a&#43;fraud&#43;detection&#43;model.&#43;The&#43;full&#43;source&#43;code&#43;and&#43;details&#43;are&#43;available&#43;in&#43;the&#43;GitHub&#43;repository.%0AOverview&#43;Data&#43;The&#43;dataset&#43;contains&#43;transactions&#43;labeled&#43;as&#43;either&#43;fraudulent&#43;or&#43;legitimate.&#43;It&#43;exhibits&#43;a&#43;strong&#43;class&#43;imbalance%3A&#43;legitimate&#43;transactions&#43;vastly&#43;outnumber&#43;fraudulent&#43;ones.&#43;Modeling&#43;The&#43;primary&#43;model&#43;is&#43;an&#43;XGBoost&#43;%28Gradient&#43;Boosted&#43;Decision&#43;Trees%29&#43;classifier.&#43;Key&#43;configuration&#43;parameters&#43;include%3A&#43;max_depth%3A&#43;Controls&#43;tree&#43;depth&#43;to&#43;prevent&#43;overfitting.&#43;learning_rate%3A&#43;Set&#43;low&#43;for&#43;better&#43;convergence.&#43;n_estimators%3A&#43;High&#43;value&#43;with&#43;early&#43;stopping.&#43;gamma%2C&#43;alpha%2C&#43;lambda%3A&#43;Regularization&#43;terms.&#43;scale_pos_weight%3A&#43;Adjusted&#43;to&#43;address&#43;class&#43;imbalance.&#43;A&#43;validation&#43;set&#43;is&#43;used&#43;to&#43;monitor&#43;performance%2C&#43;with&#43;early&#43;stopping&#43;or&#43;threshold&#43;tuning&#43;applied.&#43;Here%E2%80%99s&#43;a&#43;snippet&#43;of&#43;the&#43;model&#43;training&#43;code%3A%0A&amp;title=Detecting&#43;credit&#43;card&#43;fraud&amp;url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fcreditcardfraud%2F"
+              </span></a><a href="https://www.linkedin.com/shareArticle?&amp;mini=true&amp;source=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fcreditcardfraud%2F&amp;summary=Credit&#43;Card&#43;Fraud&#43;Prediction&#43;using&#43;Machine&#43;Learning.&amp;title=Detecting&#43;credit&#43;card&#43;fraud&amp;url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fcreditcardfraud%2F"
         class="ananke-social-link linkedin no-underline"
         title="Share on LinkedIn" aria-label="Share on LinkedIn"
         target="_blank" rel="nofollow noopener noreferrer">

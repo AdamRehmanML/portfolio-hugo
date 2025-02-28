@@ -2,6 +2,7 @@
 featured_image: "/images/matrix.jpg"
 title: "The Matrix - GPT"
 weight: 10
+summary: "A simple GPT model from the ground up trained using the script of \"The Matrix\" film."
 ---
 Matrix GPT
 
