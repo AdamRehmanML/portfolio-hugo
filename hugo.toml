@@ -3,7 +3,7 @@ title = 'Portfolio - Adam Rehman'
 theme = 'ananke'
 
 defaultContentLanguage = "en"
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 enableRobotsTXT = true
 
 [services.googleAnalytics]
@@ -16,15 +16,14 @@ pagerSize = 10
 contentDir = "content/en"
 languageCode = 'en-US'
 weight = 1
-title = "Data Science and Machine Learning Portfolio"
-
+title = "Data Science Portfolio"
 [sitemap]
 changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
 
 [params]
-mainSections = ["post"]
+mainSections = ["projects"]
 text_color = ""
 author = "Adam Rehman"
 favicon = ""

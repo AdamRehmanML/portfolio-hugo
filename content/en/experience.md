@@ -1,11 +1,12 @@
 ---
 title: "Experience"
-description: "Hi, I'm Adam!"
 omit_header_text: true
+featured_image: ''
+description: "Hi, I'm Adam!"
 type: page
 menu:
-  main:
-    weight: 30
+  main: 
+    weight: 10  
 --- 
 ## 🎓 Education
 ### **MEng in Electronic and Information Engineering**  
