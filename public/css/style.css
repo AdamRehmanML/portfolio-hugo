@@ -1,0 +1,80 @@
+.slider {
+  width: 800px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#radio1:checked ~ .slides .first,
+#radio2:checked ~ .slides .slide:nth-of-type(2),
+#radio3:checked ~ .slides .slide:nth-of-type(3),
+#radio4:checked ~ .slides .slide:nth-of-type(4),
+#radio5:checked ~ .slides .slide:nth-of-type(5),
+#radio6:checked ~ .slides .slide:nth-of-type(6),
+#radio7:checked ~ .slides .slide:nth-of-type(7),
+#radio8:checked ~ .slides .slide:nth-of-type(8),
+#radio9:checked ~ .slides .slide:nth-of-type(9),
+#radio10:checked ~ .slides .slide:nth-of-type(10) {
+  opacity: 1;
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 800px; /* Match slider width */
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.manual-btn:hover {
+  background: #fff;
+}
+
+#radio1:checked ~ .navigation-manual .manual-btn:nth-child(1),
+#radio2:checked ~ .navigation-manual .manual-btn:nth-child(2),
+#radio3:checked ~ .navigation-manual .manual-btn:nth-child(3),
+#radio4:checked ~ .navigation-manual .manual-btn:nth-child(4),
+#radio5:checked ~ .navigation-manual .manual-btn:nth-child(5),
+#radio6:checked ~ .navigation-manual .manual-btn:nth-child(6),
+#radio7:checked ~ .navigation-manual .manual-btn:nth-child(7),
+#radio8:checked ~ .navigation-manual .manual-btn:nth-child(8),
+#radio9:checked ~ .navigation-manual .manual-btn:nth-child(9),
+#radio10:checked ~ .navigation-manual .manual-btn:nth-child(10) {
+  background: #fff;
+}

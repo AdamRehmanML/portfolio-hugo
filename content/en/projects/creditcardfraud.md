@@ -1,9 +1,9 @@
 ---
 weight: 4
 featured_image: "images/creditcardfraud.jpg"
-summary: "Credit Card Fraud Detection using Gradient Boosting and Deep Neural Networks."
+summary: "Using F_beta scoring to optimise model selection for credit card fraud investigation."
 tags: ["Data Science", "Machine Learning", "Gradient Boosting"]
-title: "Detecting credit card fraud using Data Science and Machine Learning techniques"
+title: "Credit Card Fraud Detection using Gradient Boosting and Deep Neural Networks."
 ---
 
 This project explores the detection of financial fraud in credit card transactions using machine learning techniques. The code and experiments in this repository leverage Kaggle's [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) to build and evaluate a fraud detection model. The full source code and details are available in the [GitHub repository](https://github.com/adamrehmanml/fraud-detection).
@@ -65,5 +65,5 @@ Confusion Matrices
     Side-by-side confusion matrices are plotted for F1-optimized vs. Fβ-optimized thresholds.
     This visualizes trade-offs between false positives and false negatives.
 
-Here’s the evaluation and visualization code:
-![sigma](/images/confusion_matrix.png)
+
+{{< slider >}}

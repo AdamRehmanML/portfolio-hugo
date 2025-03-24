@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Detecting credit card fraud using Data Science and Machine Learning techniques">
   <meta itemprop="description" content="Credit Card Fraud Detection using Gradient Boosting and Deep Neural Networks.">
-  <meta itemprop="wordCount" content="294">
+  <meta itemprop="wordCount" content="295">
   <meta itemprop="keywords" content="Data Science,Machine Learning,Gradient Boosting">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Detecting credit card fraud using Data Science and Machine Learning techniques">
@@ -238,12 +238,12 @@ This visualizes trade-offs between false positives and false negatives.
 
 <div class="fbeta-slider">
   
-  <img id="fbeta-image" src="/images/slider/F_beta2.jpg" alt="F_beta Image" style="max-width:100%; height:auto;">
+  <img id="fbeta-image" src="/images/slider/F_beta_1.jpg" alt="F_beta Image" style="max-width:100%; height:auto;">
   
   
-  <input type="range" id="fbeta-slider" min="1" max="10" value="1" step="1">
+  <input type="range" id="fbeta-slider" min="1" max="19" value="1" step="1">
   
-  <span id="slider-display">1</span>
+  <span id="slider-display">F_beta 1</span>
 </div>
 
 <script>
@@ -256,7 +256,7 @@ This visualizes trade-offs between false positives and false negatives.
   slider.addEventListener('input', function() {
     const fbetaValue = slider.value;
     
-    image.src = '/images/slider/F_beta' + fbetaValue + '.jpg';
+    image.src = '/images/slider/F_beta_' + fbetaValue + '.jpg';
     
     display.textContent = 'F_beta: '+fbetaValue;
   });

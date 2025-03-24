@@ -1,0 +1,26 @@
+
+<div class="fbeta-slider">
+  <!-- Image element: starts with F_beta=2 -->
+  <img id="fbeta-image" src="/images/slider/F_beta_1.jpg" alt="F_beta Image" style="max-width:100%; height:auto;">
+  
+  <!-- Slider control: range from a minimum to maximum F_beta value -->
+  <input type="range" id="fbeta-slider" min="1" max="19" value="1" step="1">
+  <!-- Display the current F_beta value -->
+  <span id="slider-display">F_beta 1</span>
+</div>
+
+<script>
+  // Get references to the slider, image, and display span
+  const slider = document.getElementById('fbeta-slider');
+  const image = document.getElementById('fbeta-image');
+  const display = document.getElementById('slider-display');
+
+  // Listen for slider changes
+  slider.addEventListener('input', function() {
+    const fbetaValue = slider.value;
+    // Update the image source based on the F_beta value
+    image.src = '/images/slider/F_beta_' + fbetaValue + '.jpg';
+    // Update the displayed F_beta value
+    display.textContent = 'F_beta: '+fbetaValue;
+  });
+</script>
