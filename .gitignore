@@ -15,5 +15,5 @@
 *.swo
 
 # Environment or local config
-.env
-.env.*
+.venv
+.venv/*
