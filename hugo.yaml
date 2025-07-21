@@ -1,34 +1,39 @@
 baseURL: "https://adamrehman.dev/"
-title: "ML Engineer Portfolio (WIP)"
+title: "Adam Rehman – ML Engineer"
 theme: "PaperMod"
 languageCode: "en-gb"
 defaultContentLanguage: "en"
 enableRobotsTXT: true
+
 pagination:
   pagerSize: 10
+
 params:
-    disableThemeToggle: true
-    defaultTheme: dark
-    profileMode:
-        enabled: true
-        title: "Adam Rehman" # optional default will be site title
-        imageUrl: "Headshot.jpg" # optional
-        imageTitle: "Neovim god" # optional
-        imageWidth: 300 # custom size
-        imageHeight: 375 # custom size
-        subtitle: "ML Engineer (Imperial College London)"
-        buttons:
-          - name: Projects
-            url: "/content/Projects"
-          - name: Experience
-            url: "/content/Experience"    
-          - name: Contact
-            url: "/content/Experience"    
-    socialIcons: # optional
-      - name: "linkedin"
-        url: "https://linkedin.com/in/adam-rehman" 
-      - name: "github"
-        url: "https://github.com/adamrehmanml"
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  profileMode:
+    enabled: true
+    title: "Adam Rehman"
+    subtitle: "Machine Learning Engineer | Imperial College London"
+    imageUrl: "Headshot.jpg"
+    imageTitle: "Neovim god"
+    imageWidth: 200
+    imageHeight: 250
+    buttons:
+      - name: Projects
+        url: "/projects"
+      - name: Experience
+        url: "/experience"
+      - name: Contact
+        url: "mailto:adam.h.rehman@gmail.com"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/adam-rehman"
+    - name: github
+      url: "https://github.com/adamrehmanml"
+
 outputs:
   home:
     - HTML
