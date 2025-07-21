@@ -1,0 +1,19 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Environment or local config
+.env
+.env.*
