@@ -1,4 +1,6 @@
 # Education
+### MSc Artificial Intelligence - Queen Mary University of London
+*October 2025 - June 2026* 
 
 ### MEng Electronic and Information Engineering (2:2) - Imperial College London
 *October 2020 – July 2024* 
