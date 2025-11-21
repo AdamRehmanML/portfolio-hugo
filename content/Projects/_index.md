@@ -1,9 +1,7 @@
 ---
-title: "Projects"
+title: "Projects (WIP)"
 description: "A showcase of my key ML and software projects"
 ---
-
-## WIP: Havent added descriptions but will give high level overview
 
 ### GPT-2 Clone
 - Trained a GPT-2 clone from scratch with Pytorch and preprocessed the script of 'The Matrix' to use as training data.
