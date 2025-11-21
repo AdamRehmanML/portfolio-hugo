@@ -2,7 +2,7 @@
 title: "Projects (WIP)"
 description: "A showcase of my key ML and software projects"
 ---
-### Masters Thesis @ Imperial College London: Diffusion Models for Image Inpainting
+### [Masters Thesis](Imperial_College_Thesis.pdf) @ Imperial College London: Diffusion Models for Image Inpainting
 - Initially trained a diffusion model with a large face dataset to generate faces.
 - Built a find and replace pipeline to segment features/objects using a text prompt, and subsequently replaced that part of the image with another object using a text-conditioned diffusion model (stable diffusion).
 - Used powerful segmentation models with gaussian blur on the mask to improve inpainting harmony.
