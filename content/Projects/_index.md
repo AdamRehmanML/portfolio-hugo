@@ -10,7 +10,7 @@ date: 2025-11-24
 
 ### 🎨 Generative AI for Image Inpainting (MEng Thesis)
 
-**Context:** MEng Research Project, Imperial College London
+**Context:** MEng Research Project, Imperial College London. **[Download Thesis PDF:](Imperial_College_Thesis.pdf)**
 
 **Description:** This Master's thesis explored novel techniques for **text-conditioned image manipulation** by enhancing the object replacement and inpainting process using advanced segmentation and diffusion models.
 
