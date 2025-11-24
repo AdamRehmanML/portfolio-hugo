@@ -25,8 +25,8 @@ params:
         url: "/projects"
       - name: Experience
         url: "/experience"
-      - name: Contact
-        url: "mailto:adam.h.rehman@gmail.com"
+      - name: CV
+        url: "Adam_Rehman_CV.pdf"
 
   socialIcons:
     - name: linkedin
