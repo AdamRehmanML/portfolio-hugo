@@ -5,7 +5,7 @@
 
 #### MSc Project: 3D Gaussian Splatting
 
- - Supervisor: **Lev Mukhanov (QMUL & IMEC)**
+ - Supervisor: **Dr Lev Mukhanov (QMUL & IMEC)**
  - Research Group: **IMEC** Cambridge
  - Implementing **3D Gaussian Splatting** on smartphones/edge devices
 
