@@ -1,6 +1,13 @@
 # Education
 ### MSc Artificial Intelligence - Queen Mary University of London
-*October 2025 - June 2026* 
+*October 2025 - June 2026*    
+**Multimodal AI Stream**    
+
+#### MSc Project: 3D Gaussian Splatting
+
+ - Supervisor: **Lev Mukhanov (QMUL & IMEC)**
+ - Research Group: **IMEC** Cambridge
+ - Implementing **3D Gaussian Splatting** on smartphones/edge devices
 
 ### MEng Electronic and Information Engineering (2:2) - Imperial College London
 *October 2020 – July 2024* 
