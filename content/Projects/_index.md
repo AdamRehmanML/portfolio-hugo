@@ -2,6 +2,7 @@
 title: "Technical Projects & Research"
 description: "A showcase of my key Machine Learning (ML), Generative AI, and Software Engineering projects, demonstrating proficiency from low-level systems to modern deep learning architectures."
 date: 2025-11-24
+math: True
 ---
 
 ## 🔬 Academic Research & Generative AI

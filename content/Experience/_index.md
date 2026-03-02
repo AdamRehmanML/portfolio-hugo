@@ -1,8 +1,8 @@
 # Education
-### MSc Artificial Intelligence - Queen Mary University of London
+### MSc Artificial Intelligence (Distinction) - Queen Mary University of London
 *October 2025 - June 2026*    
 **Multimodal AI Stream**    
-
+**[View my Semester 1 Results](results.html)**
 #### MSc Project: 3D Gaussian Splatting
 
  - Supervisor: **Dr Lev Mukhanov (QMUL & IMEC)**
