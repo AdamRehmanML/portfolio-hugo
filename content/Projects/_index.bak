@@ -1,11 +1,34 @@
 ---
 title: "Technical Projects & Research"
-description: ""
+description: "A showcase of my key Machine Learning (ML), Generative AI, and Software Engineering projects, demonstrating proficiency from low-level systems to modern deep learning architectures."
 date: 2025-11-24
 math: True
 ---
 
+## 🔬 Academic Research & Generative AI
 
+---
+
+### 🎨 Generative AI for Image Inpainting (MEng Thesis)
+
+**Context:** MEng Research Project, Imperial College London. **[Download Thesis PDF:](Imperial_College_Thesis.pdf)**
+
+**Description:** This Master's thesis explored novel techniques for **text-conditioned image manipulation** by enhancing the object replacement and inpainting process using advanced segmentation and diffusion models.
+
+* **Core Architectures:** The work involved exploring and benchmarking different **Diffusion Model architectures** to accurately fill masked regions of an image using contextual information.
+* **Novel Methodology:** Developed and refined a novel methodology for improving GenAI image inpainting algorithms by integrating secondary AI mask generation.
+* **Pipeline & Achievement:** Built a "find and replace" pipeline to segment objects using a text prompt, achieving **state-of-the-art visual coherence** for the inpainting process.
+
+### 🧠 Masters Thesis (Future Focus)
+
+**Institution:** Queen Mary University of London (Expected 2026)
+
+**Description:** Currently specializing in **Multimodal AI** (Image, Audio, Language models) and Deep Learning Architectures, with a Predicted Classification of **1st (Distinction)**. The future project will focus on applied research within emerging Generative AI domains.
+
+* **Target Area:** Aiming to undertake a project involving state-of-the-art **Vision-Language Models (VLMs)** or complex **Computer Vision** tasks.
+* **Core Disciplines:** Deep Learning, Multimodal AI, and advanced Computer Vision architectures.
+
+---
 
 ## 🛡️ Machine Learning & Optimization
 
